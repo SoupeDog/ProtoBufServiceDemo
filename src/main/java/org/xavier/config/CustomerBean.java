@@ -15,7 +15,6 @@ import org.xavier.extend.CustomerHttpMessageConverter;
 @Configuration
 public class CustomerBean {
 
-
     @Bean
     public CustomerHttpMessageConverter customerHttpMessageConverter() {
         return new CustomerHttpMessageConverter();
